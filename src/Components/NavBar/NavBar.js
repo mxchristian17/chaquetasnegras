@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom border-3 border-dark">
         <div className="container-fluid">
             <Link className="navbar-brand px-4 py-0" to="/">
             <img src="Logo-156x50.png" alt="Chaquetas negras" width="156" height="50" className="d-inline-block align-text-top" />
