@@ -1,19 +1,27 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpa } from '@fortawesome/free-solid-svg-icons';
+import './Service.css';
+import useMediaQuery from '../Hooks/useMediaQuerie';
 
 const Service = (props) => {
 
     const { title, img, description } = props
     const styleDescription = { fontSize : '1em' }
 
-    const styleParalax = {
-      backgroundImage: 'url("' + img + '")',
-      minHeight: '400px',
-      backgroundAttachment: 'fixed',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover'
+    const isTablet = useMediaQuery('(max-width: 960px)');
+    const isMobile = useMediaQuery('(max-width: 600px)');
+
+    let styleParalax = {
+      backgroundImage: 'url("assets/' + img + '")'
+    }
+
+    if(isTablet) styleParalax = {
+      backgroundImage: 'url("assets/tablet-' + img + '")'
+    }
+
+    if(isMobile) styleParalax = {
+      backgroundImage: 'url("assets/mobile-' + img + '")'
     }
 /*
   return (
@@ -38,7 +46,7 @@ const Service = (props) => {
         </div>
       </div>
       <div className="row w-100 p-0 m-0">
-        <div className="col-12 w-100 p-0 m-0" style={ styleParalax } />
+        <div className="paralax col-12 w-100 p-0 m-0" style={ styleParalax } />
       </div>
     </article>
   )
