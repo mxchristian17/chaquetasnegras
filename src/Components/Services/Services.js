@@ -5,24 +5,29 @@ const Services = () => {
   return (
     <section className="container-fluid m-0 p-0">        
         <Service
-          title="Seminarios de masajes"
+          title="SEMINARIOS DE ALTA CAPACITACION EN MASAJES"
           img="assets/service1.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat purus lobortis rutrum blandit. Vivamus pharetra erat id risus viverra sodales a nec ante."
+          description="Destinado a los Profesionales del Masajes en distintas areas , Terapeutico, Estetico, Spa, Deportivo, Holistico."
         />
         <Service
-          title="Cursos de masajes descontracturantes"
+          title="Curso en Masajes"
           img="assets/service2.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat purus lobortis rutrum blandit. Vivamus pharetra erat id risus viverra sodales a nec ante."
+          description="Curso de Masajista Profesional en Masajes Terapéuticos, Estético, Spa, Deportivo y Holístico."
         />
         <Service
-          title="Seminarios de masoterapia"
+          title="Talleres de Nivelación para Homologar Certificaciónes"
           img="assets/service3.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat purus lobortis rutrum blandit. Vivamus pharetra erat id risus viverra sodales a nec ante."
+          description="Aulas Presenciales u Online para Homologación de Certificaciones expedidas por otras Entidades, donde se dictara cursos de nivelación de técnicas compatibles con nuestra Institución."
         />
         <Service
-          title="Cursos web"
+          title="Certificación de Aptitud para ejercer Masajes Spa"
           img="assets/service4.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat purus lobortis rutrum blandit. Vivamus pharetra erat id risus viverra sodales a nec ante."
+          description="Certificación para Profesionales del Masaje Spa exigidos en los centros de Spa , termales, Hoteles y centros de Relax."
+        />
+        <Service
+          title="Asesor en confección de Gabinete de Masajes"
+          img="assets/service4.jpg"
+          description="Falta descripción de servicio por el momento..."
         />
     </section>
   )
