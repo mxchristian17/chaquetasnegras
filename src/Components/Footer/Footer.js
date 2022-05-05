@@ -33,9 +33,11 @@ const Footer = () => {
             <p>
                 <NavLink className="text-white" to="/services" >Servicios</NavLink>
             </p>
-            <p>
+            {
+            /*  <p>
                 <NavLink className="text-white" to="/products" >Productos</NavLink>
-            </p>
+            </p>*/
+            }
             <p>
                 <NavLink className="text-white" to="/contact" >Contacto</NavLink>
             </p>

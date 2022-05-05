@@ -15,7 +15,9 @@ const NavBar = () => {
             <div className="navbar-nav">
                 <NavLink className="nav-link" to="/" >Inicio</NavLink>
                 <NavLink className="nav-link" to="/services" >Servicios</NavLink>
-                <NavLink className="nav-link" to="/products" >Productos</NavLink>
+                {
+                //  <NavLink className="nav-link" to="/products" >Productos</NavLink>
+                }
                 <NavLink className="nav-link" to="/contact" >Contacto</NavLink>
             </div>
             </div>
